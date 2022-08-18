@@ -1,0 +1,15 @@
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/bin/Debug/netstandard2.0/LoginPageOne.deps.json
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/bin/Debug/netstandard2.0/LoginPageOne.dll
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/bin/Debug/netstandard2.0/ref/LoginPageOne.dll
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/bin/Debug/netstandard2.0/LoginPageOne.pdb
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/LoginPageOne.csproj.AssemblyReference.cache
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/LoginPageOne.AssemblyInfoInputs.cache
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/LoginPageOne.AssemblyInfo.cs
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/LoginPageOne.csproj.CoreCompileInputs.cache
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/LoginPageOne.dll
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/ref/LoginPageOne.dll
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/LoginPageOne.pdb
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/MyPage.xaml.g.cs

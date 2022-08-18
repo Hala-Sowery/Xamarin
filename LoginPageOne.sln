@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPageOne.Android", "LoginPageOne\LoginPageOne.Android\LoginPageOne.Android.csproj", "{7BC3FE2F-8234-471B-9552-A1721DBC7C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginPageOne", "LoginPageOne\LoginPageOne\LoginPageOne.csproj", "{B95EED9E-9911-4DAE-9A73-C0B3E885141D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC3FE2F-8234-471B-9552-A1721DBC7C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC3FE2F-8234-471B-9552-A1721DBC7C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC3FE2F-8234-471B-9552-A1721DBC7C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC3FE2F-8234-471B-9552-A1721DBC7C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95EED9E-9911-4DAE-9A73-C0B3E885141D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95EED9E-9911-4DAE-9A73-C0B3E885141D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95EED9E-9911-4DAE-9A73-C0B3E885141D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95EED9E-9911-4DAE-9A73-C0B3E885141D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82A6255E-0BA7-4FD1-9769-EAA80FE26E5A}
+	EndGlobalSection
+EndGlobal

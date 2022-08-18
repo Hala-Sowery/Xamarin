@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:helpers="clr-namespace:LoginPageOne.Helpers;assembly=LoginPageOne" xmlns:local="clr-namespace:LoginPageOne"
+             x:Class="LoginPageOne.MainPage">
+    <ContentPage.BindingContext>
+        <local:MainViewModel/>
+    </ContentPage.BindingContext>
+    <Grid BackgroundColor="White">
+        <StackLayout BackgroundColor="White">
+            <Frame HeightRequest="200">
+                <Image HeightRequest="130" HorizontalOptions="CenterAndExpand" Source="{helpers:ImageResource LoginPageOne.Assets.Images.logo.png}"></Image>
+                <Frame.Background>
+                    <!-- StartPoint defaults to (0,0) -->
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#00E5EE"
+                          Offset="0.1" />
+                        <GradientStop Color="#89CFF0"
+                          Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+            </Frame>
+        </StackLayout>
+
+        <Frame HasShadow="True" BorderColor="White" BackgroundColor="White" HeightRequest="360" CornerRadius="20" Margin="20,100,20,0" VerticalOptions="Center">
+            <StackLayout>
+                <StackLayout>
+                    <inputLayout:SfTextInputLayout 
+            ContainerType="None" 
+            Hint="Username"
+            FocusedColor="#0198E1"
+            ReserveSpaceForAssistiveLabels="False">
+                        <Entry Text="{Binding Name}"/>
+                    </inputLayout:SfTextInputLayout>
+                </StackLayout>
+                <StackLayout>
+                    <inputLayout:SfTextInputLayout 
+            ContainerType="None" 
+            Hint="Password"
+                        FocusedColor="#0198E1"
+            ReserveSpaceForAssistiveLabels="False">
+                        <Entry IsPassword="True" Text="{Binding Pass}"/>
+                    </inputLayout:SfTextInputLayout>
+                </StackLayout>
+                <Label Text="Forgot Password" TextColor="#0198E1" HorizontalOptions="End" FontAttributes="Bold"  FontSize="15"/>
+                <Button Command="{Binding LoginCommand}" BackgroundColor="{DynamicResource Key=SecondColor}" TextColor="White" FontSize="18" Text="Sign in" CornerRadius="30" FontAttributes="None" Margin="0,10,0,0">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="#00E5EE" Offset="0.1" />
+                            <GradientStop Color="#89CFF0" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Grid>
+                    <FlexLayout Direction="Column" WidthRequest="100"  HorizontalOptions="Start" >
+
+                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="#0198E1" Margin="10,30,10,10"/>
+                    </FlexLayout>
+                    <FlexLayout Direction="Column" WidthRequest="100"  HorizontalOptions="End" >
+
+                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="#0198E1" Margin="10,30,10,10"/>
+                    </FlexLayout>
+                    <Label Text="OR" HorizontalOptions="Center" Margin="0,20,0,0" TextColor="#0198E1"></Label>
+                </Grid>
+                <Grid HeightRequest="50">
+                    <Image HorizontalOptions="Start" Margin="70,0,0,0" HeightRequest="30" Source="{helpers:ImageResource LoginPageOne.Assets.Images.facebook.png}">
+                        <!--<Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Tapped="OnImageNameTapped" NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>-->
+                    </Image>
+                    <Image HorizontalOptions="Center" HeightRequest="30" Source="{helpers:ImageResource LoginPageOne.Assets.Images.twitter.png}"/>
+                    <Image HorizontalOptions="End" Margin="0,0,70,0" HeightRequest="30" Source="{helpers:ImageResource LoginPageOne.Assets.Images.instagram.png}"/>
+
+                </Grid>
+            </StackLayout>
+        </Frame>
+
+    </Grid>
+</ContentPage>

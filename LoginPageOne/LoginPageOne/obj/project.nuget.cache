@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "b+6NmqNbelIV7QFXl95nKyJBD/IhWQ2OlIP4Zi2LNu1FLLoxy5Js4tYuiJMSIg6okCxIL9wKkLFGXF5JJxpQ5Q==",
+  "success": true,
+  "projectFilePath": "/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/LoginPageOne.csproj",
+  "expectedPackageFiles": [
+    "/Users/air/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/air/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/air/.nuget/packages/syncfusion.licensing/20.2.0.38/syncfusion.licensing.20.2.0.38.nupkg.sha512",
+    "/Users/air/.nuget/packages/syncfusion.xamarin.core/20.2.0.38/syncfusion.xamarin.core.20.2.0.38.nupkg.sha512",
+    "/Users/air/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/air/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/air/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

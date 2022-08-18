@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="20.2.0.38" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\" />
+    <None Remove="Assets\Images\" />
+    <None Remove="Helpers\" />
+    <None Remove="Assets\Images\logo.png" />
+    <None Remove="Assets\Images\facebook.png" />
+    <None Remove="Assets\Images\twitter.png" />
+    <None Remove="Assets\Images\instagram.png" />
+    <None Remove="Assets\Images\instagram.png" />
+    <None Remove="Syncfusion.Xamarin.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Assets\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\logo.png" />
+    <EmbeddedResource Include="Assets\Images\facebook.png" />
+    <EmbeddedResource Include="Assets\Images\twitter.png" />
+    <EmbeddedResource Include="Assets\Images\instagram.png" />
+  </ItemGroup>
+</Project>
