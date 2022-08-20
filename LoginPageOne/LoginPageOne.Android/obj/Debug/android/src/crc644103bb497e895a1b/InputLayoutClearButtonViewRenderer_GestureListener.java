@@ -20,15 +20,17 @@ public class InputLayoutClearButtonViewRenderer_GestureListener
 	public InputLayoutClearButtonViewRenderer_GestureListener ()
 	{
 		super ();
-		if (getClass () == InputLayoutClearButtonViewRenderer_GestureListener.class)
+		if (getClass () == InputLayoutClearButtonViewRenderer_GestureListener.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.TextInputLayout.InputLayoutClearButtonViewRenderer+GestureListener, Syncfusion.Core.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public InputLayoutClearButtonViewRenderer_GestureListener (crc644103bb497e895a1b.InputLayoutClearButtonViewRenderer p0)
 	{
 		super ();
-		if (getClass () == InputLayoutClearButtonViewRenderer_GestureListener.class)
+		if (getClass () == InputLayoutClearButtonViewRenderer_GestureListener.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.TextInputLayout.InputLayoutClearButtonViewRenderer+GestureListener, Syncfusion.Core.XForms.Android", "Syncfusion.XForms.Android.TextInputLayout.InputLayoutClearButtonViewRenderer, Syncfusion.Core.XForms.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

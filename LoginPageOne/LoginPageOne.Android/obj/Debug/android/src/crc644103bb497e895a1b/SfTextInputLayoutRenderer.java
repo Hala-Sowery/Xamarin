@@ -19,24 +19,27 @@ public class SfTextInputLayoutRenderer
 	public SfTextInputLayoutRenderer (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == SfTextInputLayoutRenderer.class)
+		if (getClass () == SfTextInputLayoutRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.TextInputLayout.SfTextInputLayoutRenderer, Syncfusion.Core.XForms.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public SfTextInputLayoutRenderer (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == SfTextInputLayoutRenderer.class)
+		if (getClass () == SfTextInputLayoutRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.TextInputLayout.SfTextInputLayoutRenderer, Syncfusion.Core.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public SfTextInputLayoutRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == SfTextInputLayoutRenderer.class)
+		if (getClass () == SfTextInputLayoutRenderer.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.TextInputLayout.SfTextInputLayoutRenderer, Syncfusion.Core.XForms.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 

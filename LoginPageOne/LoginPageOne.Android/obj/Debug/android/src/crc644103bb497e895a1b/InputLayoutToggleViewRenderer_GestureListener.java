@@ -20,15 +20,17 @@ public class InputLayoutToggleViewRenderer_GestureListener
 	public InputLayoutToggleViewRenderer_GestureListener ()
 	{
 		super ();
-		if (getClass () == InputLayoutToggleViewRenderer_GestureListener.class)
+		if (getClass () == InputLayoutToggleViewRenderer_GestureListener.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.TextInputLayout.InputLayoutToggleViewRenderer+GestureListener, Syncfusion.Core.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public InputLayoutToggleViewRenderer_GestureListener (crc644103bb497e895a1b.InputLayoutToggleViewRenderer p0)
 	{
 		super ();
-		if (getClass () == InputLayoutToggleViewRenderer_GestureListener.class)
+		if (getClass () == InputLayoutToggleViewRenderer_GestureListener.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.TextInputLayout.InputLayoutToggleViewRenderer+GestureListener, Syncfusion.Core.XForms.Android", "Syncfusion.XForms.Android.TextInputLayout.InputLayoutToggleViewRenderer, Syncfusion.Core.XForms.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

@@ -22,15 +22,17 @@ public class GestureListener
 	public GestureListener ()
 	{
 		super ();
-		if (getClass () == GestureListener.class)
+		if (getClass () == GestureListener.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.EffectsView.GestureListener, Syncfusion.Core.XForms.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public GestureListener (crc64eeb36180fe6023e2.SfEffectsViewRenderer p0)
 	{
 		super ();
-		if (getClass () == GestureListener.class)
+		if (getClass () == GestureListener.class) {
 			mono.android.TypeManager.Activate ("Syncfusion.XForms.Android.EffectsView.GestureListener, Syncfusion.Core.XForms.Android", "Syncfusion.XForms.Android.EffectsView.SfEffectsViewRenderer, Syncfusion.Core.XForms.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

@@ -46,15 +46,19 @@
             },
             "Syncfusion.Xamarin.Core": {
               "target": "Package",
-              "version": "[20.2.0.38, )"
+              "version": "[20.2.0.44, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.7.3, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2515, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
