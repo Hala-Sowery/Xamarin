@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using LoginPageOne.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,7 +16,7 @@ namespace LoginPageOne
             {
                 if (database == null)
                 {
-                    database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "library.db3"));
+                    database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "booksLibrary.db3"));
                 }
 
                 return database;
@@ -25,11 +26,10 @@ namespace LoginPageOne
         {
             InitializeComponent();
 
-            // Initialize database before use
             var database = Database;
 
-            //MainPage = new MainPage();
             MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new BooksListPage());
         }
 
         protected override void OnStart()

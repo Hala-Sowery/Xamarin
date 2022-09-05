@@ -28,15 +28,32 @@
     <None Remove="Syncfusion.Xamarin.Core" />
     <None Remove="SQLite" />
     <None Remove="sqlite-net-pcl" />
+    <None Remove="Views\" />
+    <None Remove="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
     <Folder Include="Assets\Images\" />
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\logo.png" />
     <EmbeddedResource Include="Assets\Images\facebook.png" />
     <EmbeddedResource Include="Assets\Images\twitter.png" />
     <EmbeddedResource Include="Assets\Images\instagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\AddForm.xaml.cs">
+      <DependentUpon>AddForm.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\UpdateForm.xaml.cs">
+      <DependentUpon>UpdateForm.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\BooksListPage.xaml.cs">
+      <DependentUpon>BooksListPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LoginPageOne.Views;
 using Xamarin.Forms;
 
 namespace LoginPageOne
@@ -18,7 +19,7 @@ namespace LoginPageOne
 
         async void Button_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new MyPage());
+            await Navigation.PushAsync(new BooksListPage());
         }
 
         //void OnImageNameTapped(object sender, EventArgs args)

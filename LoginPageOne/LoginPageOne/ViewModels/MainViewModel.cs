@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using LoginPageOne.Views;
 using Xamarin.Forms;
 
 namespace LoginPageOne
@@ -44,7 +45,7 @@ namespace LoginPageOne
                         this.LoginCommand = new Command(async () =>
                         {
 
-                            await Application.Current.MainPage.Navigation.PushAsync(new MyPage());
+                            await Application.Current.MainPage.Navigation.PushAsync(new BooksListPage());
                         });
                     }
                 }

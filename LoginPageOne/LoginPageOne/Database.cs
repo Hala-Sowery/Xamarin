@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Threading.Tasks;
 using SQLite;
+using Xamarin.Essentials;
 
 namespace LoginPageOne
 {
@@ -33,6 +35,11 @@ namespace LoginPageOne
         public Task<int> DeleteBookAsync(Book book)
         {
             return _database.DeleteAsync(book);
+        }
+
+        public Task<Book> GetBook(int id)
+        {
+            return _database.FindAsync<Book>(id);
         }
     }
 }

@@ -12,4 +12,6 @@
 /Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/LoginPageOne.dll
 /Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/ref/LoginPageOne.dll
 /Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/LoginPageOne.pdb
-/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/Views/AddForm.xaml.g.cs
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/Views/UpdateForm.xaml.g.cs
+/Users/air/Projects/LoginPageOne/LoginPageOne/LoginPageOne/obj/Debug/netstandard2.0/Views/BooksListPage.xaml.g.cs

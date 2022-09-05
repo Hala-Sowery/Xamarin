@@ -1,28 +1,30 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{7BC3FE2F-8234-471B-9552-A1721DBC7C11}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_2_API_30" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.QTC4C19B07003990" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="LoginPageOne/LoginPageOne/MyPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LoginPageOne/LoginPageOne/ViewModelLocator.cs">
     <Files>
-      <File FileName="LoginPageOne/LoginPageOne/MainPage.xaml" Line="47" Column="55" />
-      <File FileName="LoginPageOne/LoginPageOne/MainViewModel.cs" Line="47" Column="95" />
-      <File FileName="LoginPageOne/LoginPageOne/MyPage.xaml.cs" Line="9" Column="10" />
-      <File FileName="LoginPageOne/LoginPageOne/MyPage.xaml" Line="11" Column="13" />
-      <File FileName="LoginPageOne/LoginPageOne/Database.cs" Line="1" Column="1" />
+      <File FileName="LoginPageOne/LoginPageOne/MyPage.xaml" Line="60" Column="39" IsPinned="True" />
       <File FileName="LoginPageOne/LoginPageOne/App.xaml" Line="1" Column="1" />
-      <File FileName="LoginPageOne/LoginPageOne/App.xaml.cs" Line="18" Column="130" />
+      <File FileName="LoginPageOne/LoginPageOne/App.xaml.cs" Line="21" Column="33" />
+      <File FileName="LoginPageOne/LoginPageOne/Book.cs" Line="14" Column="1" />
+      <File FileName="LoginPageOne/LoginPageOne/MyPage.xaml.cs" Line="40" Column="84" />
+      <File FileName="LoginPageOne/LoginPageOne/MyPageViewModal.cs" Line="46" Column="54" />
+      <File FileName="LoginPageOne/LoginPageOne/UpdateForm.xaml" Line="28" Column="56" />
+      <File FileName="LoginPageOne/LoginPageOne/ViewModelLocator.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LoginPageOne" expanded="True">
             <Node name="LoginPageOne" expanded="True">
+              <Node name="AddForm.xaml" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MyPage.xaml" expanded="True">
-                <Node name="MyPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MyPage.xaml" expanded="True" />
+              <Node name="UpdateForm.xaml" expanded="True" />
+              <Node name="ViewModelLocator.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -33,7 +35,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
-  <MonoDevelop.Ide.ItemProperties.LoginPageOne.Android PreferredExecutionTarget="Android.Pixel_2_API_30" />
+  <MonoDevelop.Ide.ItemProperties.LoginPageOne.Android PreferredExecutionTarget="Android.QTC4C19B07003990" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

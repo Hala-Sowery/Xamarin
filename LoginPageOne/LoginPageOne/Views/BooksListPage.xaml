@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="LoginPageOne.Views.BooksListPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20,35,20,20">
+            <CollectionView x:Name="collectionView" ItemsSource="{Binding collectionView}" SelectedItem="{Binding lastSelection}" SelectionMode="Single" SelectionChangedCommand="{Binding SelectedItemCommand}">
+                <CollectionView.ItemsLayout>
+        <LinearItemsLayout Orientation="Vertical"
+                           ItemSpacing="10" />
+    </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Delete" Command="{Binding Path=BindingContext.deleteCommand, Source={Reference collectionView}}"
+                                               CommandParameter="{Binding .}"
+                                    BackgroundColor="IndianRed"/>
+                                    <SwipeItem Text="Edit"
+                                               Command="{Binding Path=BindingContext.OpenEditPage, Source={Reference collectionView}}"
+                                               CommandParameter="{Binding .}"
+                       BackgroundColor="LightGreen"/>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <!-- Content -->
+                            <!--<StackLayout HeightRequest="50">
+                                <Label Text="{Binding AuthorName}" FontSize="Small"/>
+                                <Label Text="{Binding BookName}"
+                               FontSize="Body" />
+                            </StackLayout>-->
+                            <Grid Padding="5">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.RowSpan="2"
+                       Source="https://cdn-icons-png.flaticon.com/512/130/130304.png"
+                       HeightRequest="5"
+                       WidthRequest="45" />
+                <Label Grid.Column="1"
+                       Text="{Binding AuthorName}"
+                       FontAttributes="Bold" />
+                <Label Grid.Row="1"
+                       Grid.Column="1"
+                       Text="{Binding BookName}"
+                       VerticalOptions="End" />
+            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+               <Button Text="Add Book" TextColor="white" BackgroundColor="DodgerBlue"
+                Command="{Binding OpenAddPage}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

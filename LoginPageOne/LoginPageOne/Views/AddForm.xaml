@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    xmlns:local="clr-namespace:LoginPageOne"
+    x:Class="LoginPageOne.AddForm">
+    <!--<ContentPage.BindingContext>
+        <local:AddViewModel/>
+    </ContentPage.BindingContext>-->
+    <ContentPage.Content>
+        <Frame HasShadow="True" BorderColor="White" BackgroundColor="White" HeightRequest="360" CornerRadius="20" Margin="20,0,20,0" VerticalOptions="Center">
+        <StackLayout>
+            <StackLayout>
+                    <inputLayout:SfTextInputLayout 
+            ContainerType="None" 
+            Hint="Book Author"
+            FocusedColor="#0198E1"
+            ReserveSpaceForAssistiveLabels="False">
+                        <Entry Text="{Binding authorEntry}"/>
+                    </inputLayout:SfTextInputLayout>
+                </StackLayout>
+            <StackLayout>
+                    <inputLayout:SfTextInputLayout 
+            ContainerType="None" 
+            Hint="Book Name"
+            FocusedColor="#0198E1"
+            ReserveSpaceForAssistiveLabels="False">
+                        <Entry Text="{Binding nameEntry}"/>
+                    </inputLayout:SfTextInputLayout>
+                </StackLayout>
+            <Button Command="{Binding AddCommand}" BackgroundColor="{DynamicResource Key=SecondColor}" TextColor="White" FontSize="18" Text="add" CornerRadius="30" FontAttributes="None" Margin="0,50,0,0">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="#00E5EE" Offset="0.1" />
+                            <GradientStop Color="#89CFF0" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+        </StackLayout>
+</Frame>
+    </ContentPage.Content>
+</ContentPage>
+

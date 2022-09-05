@@ -8,16 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LoginPageOne.MyPage.xaml", "MyPage.xaml", typeof(global::LoginPageOne.MyPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LoginPageOne.BookListPage.xaml", "BookListPage.xaml", typeof(global::LoginPageOne.MyPage))]
 
 namespace LoginPageOne {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MyPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("BookListPage.xaml")]
     public partial class MyPage : global::Xamarin.Forms.ContentPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry nameEntry;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.CollectionView collectionView;
@@ -25,7 +22,6 @@ namespace LoginPageOne {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MyPage));
-            nameEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "nameEntry");
             collectionView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CollectionView>(this, "collectionView");
         }
     }
